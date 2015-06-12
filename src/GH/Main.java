@@ -17,7 +17,7 @@ public class Main implements ActionListener {
 	// objects
 	JFrame jf = new JFrame();
 	JPanel jp = new JPanel();
-	JButton jb = new JButton("Test");
+	JButton jb = new JButton("Start");
 //t
 	public static void main(String[] args) throws IOException {
 		Main m = new Main();
@@ -38,7 +38,7 @@ public class Main implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		JOptionPane.showMessageDialog(null, "Your test worked! Good job.");
+		JOptionPane.showMessageDialog(null, "I hope you are good at figuring out video games.");
 
 	}
 }
