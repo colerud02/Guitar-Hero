@@ -27,11 +27,13 @@ public class Main implements ActionListener {
 		jf.add(jp);
 		jp.add(jb);
 		jf.setVisible(true);
-		jf.pack();
+		
 		jb.addActionListener(this);
+		
 		Image image = ImageIO.read(getClass().getResource("gh3.lor.07.lg.jpg"));
 		JLabel label = new JLabel(new ImageIcon(image));
 		jp.add(label);
+		jf.pack();
 	}
 
 	@Override
