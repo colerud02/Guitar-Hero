@@ -15,10 +15,10 @@ import javax.swing.JPanel;
 
 public class Main implements ActionListener {
 	// objects
-	JFrame jf = new JFrame();
+	JFrame jf = new JFrame("Controls: Green=a, Red=s, Yellow=d, Blue=f, Strum = Space");
 	JPanel jp = new JPanel();
 	JButton jb = new JButton("Start");
-//t
+
 	public static void main(String[] args) throws IOException {
 		Main m = new Main();
 	}
